@@ -25,4 +25,5 @@ def get_unique_vowels(s):
                 result.add(letter)
     return result
 
+
 print(get_unique_vowels("Hello, Pier Dune!"))  # {'i', 'u', 'o'}

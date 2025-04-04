@@ -12,6 +12,7 @@
 print(merge_lists([1, 2, 3], [4, 5, 6]))  # [5, 7, 9]
 """
 
+
 def merge_lists(list1, list2):
     result = [list1[i] + list2[i] for i in range(0, len(list1))]
     return result

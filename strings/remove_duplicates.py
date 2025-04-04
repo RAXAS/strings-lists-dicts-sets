@@ -11,6 +11,7 @@
 remove_duplicates("programming")  # "progamin”
 """
 
+
 def remove_duplicates(string):
     result = ""
     for letter in string:
@@ -18,5 +19,6 @@ def remove_duplicates(string):
             result += letter
 
     return result
+
 
 print(remove_duplicates("programming"))

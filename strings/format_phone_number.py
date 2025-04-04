@@ -11,8 +11,10 @@
 print(format_phone_number("1234567890"))  # "(123) 456-7890”
 """
 
+
 def format_phone_number(digits):
     result = "(" + digits[0:3] + ") " + digits[3:6] + "-" + digits[6:10]
     return result
+
 
 print(format_phone_number("1234567890"))
